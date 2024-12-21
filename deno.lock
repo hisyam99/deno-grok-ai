@@ -1,0 +1,26 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@openai/openai@^4.75.0": "4.75.0",
+    "jsr:@std/dotenv@~0.225.3": "0.225.3"
+  },
+  "jsr": {
+    "@openai/openai@4.75.0": {
+      "integrity": "acf16b1749d71117838dc3382dd3065c58eb6dca4706138b0af34742ac67cdc9"
+    },
+    "@std/dotenv@0.225.3": {
+      "integrity": "a95e5b812c27b0854c52acbae215856d9cce9d4bbf774d938c51d212711e8d4a"
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.216.0/async/delay.ts": "8e1d18fe8b28ff95885e2bc54eccec1713f57f756053576d8228e6ca110793ad",
+    "https://deno.land/std@0.216.0/http/server.ts": "6dce295abc169d0956ae00432441331b3425afad4d79e8b3475739be2f04d614"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@openai/openai@^4.75.0",
+      "jsr:@std/assert@1",
+      "jsr:@std/async@1"
+    ]
+  }
+}
